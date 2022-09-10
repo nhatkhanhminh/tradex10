@@ -1,0 +1,93 @@
+body {
+  background-color: #fff;
+  font-family: "Poppins", Monaco, monospace;
+  text-align: center;
+  color: #fff;
+}
+body .countdown-header {
+  color: #dfe0e6;
+}
+body .countdown-text {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: rgb(14, 21, 130);
+}
+body .countdown-container {
+  margin: 20px auto;
+}
+body .countdown-container .countdown-text {
+  font-size: 40px;
+  color: #88898c;
+}
+body .countdown-container .countdown-text small.red {
+  font-size: 16px;
+  color: #FF0000;
+}
+body .countdown-container .countdown .flip-clock-label {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 750px) {
+  .countdown-header {
+    font-size: 32px;
+  }
+  .countdown-container {
+    width: 642px;
+  }
+  .countdown-container .flip-clock-label {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 749px) {
+  .countdown-header {
+    font-size: 24px;
+  }
+  .countdown-container {
+    width: 400px;
+  }
+  .countdown-container .countdown {
+    zoom: 0.7;
+    -moz-transform: scale(0.7);
+  }
+  .countdown-container .countdown .flip-clock-label {
+    font-size: 14px;
+  }
+  .countdown-container .countdown .flip-clock-divider.seconds {
+    display: none;
+  }
+  .countdown-container .countdown ul:nth-last-of-type(-n+2) {
+    display: none;
+  }
+  .countdown-container .countdown.flip-clock-wrapper {
+    width: 460px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 499px) {
+  .countdown-header {
+    font-size: 18px;
+  }
+  .countdown-container {
+    width: 244px;
+  }
+  .countdown-container .countdown {
+    zoom: 0.5;
+    -moz-transform: scale(0.5);
+  }
+  .countdown-container .countdown.flip-clock-wrapper {
+    margin: 15px 14px;
+  }
+  .countdown-container .countdown .flip-clock-divider.seconds {
+    display: none;
+  }
+  .countdown-container .countdown ul:nth-last-of-type(-n+2) {
+    display: none;
+  }
+  .countdown-container .countdown .flip-clock-label {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=screen.css.map */
